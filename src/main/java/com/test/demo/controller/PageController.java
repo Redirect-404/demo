@@ -10,6 +10,7 @@ public class PageController {
 
     @GetMapping("/{page}")
     public String getPage(@PathVariable String page){
+        System.out.println("page");
         return page;
     }
 
